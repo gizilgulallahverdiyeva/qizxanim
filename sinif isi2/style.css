@@ -1,0 +1,37 @@
+.main {
+  width: 700px;
+  height: 500px;
+  background-color: antiquewhite;
+  border: 3px solid orange;
+  margin-left: 80px;
+  text-align: center;
+}
+.box {
+  width: 700px;
+  height: 100px;
+  display: flex;
+  direction: ltr;
+}
+.yellow {
+  width: 700px;
+  height: 100px;
+  background-color: yellow;
+  text-align: center;
+}
+.red {
+  width: 700px;
+  height: 100px;
+  background-color: brown;
+}
+.gray {
+  width: 700px;
+  height: 100px;
+  background-color: gray;
+}
+.orange {
+  background-color: orange;
+}
+.blue {
+  background-color: blue;
+}
+

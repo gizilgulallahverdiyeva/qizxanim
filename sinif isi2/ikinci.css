@@ -1,0 +1,37 @@
+.box {
+  background-color: beige;
+  display: flex;
+  width: 70px;
+  font-size: 70px;
+  margin-left: 50px;
+  border: 1px solid black;
+}
+.item {
+}
+.red {
+  background-color: brown;
+}
+.yellow {
+  background-color: yellow;
+}
+.gr {
+  background-color: gray;
+}
+.bl {
+  background-color: aqua;
+}
+.wh {
+  background-color: white;
+}
+.or {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blueviolet;
+}
+.black {
+  background-color: blanchedalmond;
+}

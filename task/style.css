@@ -1,0 +1,909 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+}
+.greatbg{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+.header{
+    width:100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+nav{
+    ul{
+        display: flex;
+        list-style: none;
+        
+    }
+}
+}
+.fa-bars{
+    color: white;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: white !important;
+    margin-left: 18px;
+    font-size: 22px;
+}
+.navbar-right{
+    margin-right: 60px;
+}
+.icon{
+    margin-left: 50px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.fa-t{
+   margin-left: 13px;
+   margin-top: 12px;
+   font-size: 20px;
+}
+h2{
+    color: rgb(29, 142, 240);
+    margin-left: 540px;
+   margin-top: 30px;
+    font-size: 30px;
+}
+h1{
+    color: white;
+    font-size: 65px;
+    margin-left: 400px;
+    width: 650px;
+    font-weight: bold;
+}
+span{
+    margin-left: 90px;
+}
+h3{
+    color: rgb(56, 141, 238);
+    margin-left: 530px;
+    font-size: 65px;
+    font-weight: bold;
+}
+.bg-text{
+    color: white;
+    width: 600px;
+    margin-left: 400px;
+    font-size: 23px;
+}
+.bottom{
+    width: 900px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-right: 600px;
+    padding-right: 50px;
+}
+.bluebox{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(56, 141, 238);
+    margin-left: 570px;
+    border-radius: 5px;
+}
+.bluetext{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.fa-users{
+    font-size: 80px;
+   position: relative;
+   top: 100px;
+   left: 920px;
+}
+.letter-1{
+    color: white;
+    position: relative;
+    left: 720px;
+    top: 180px;
+    font-size: 40px;
+}
+.lettertext{
+    color: white;
+    position: relative;
+    left: 900px;
+    top: 200px;
+    font-size: 23px;
+}
+.fa-clock{
+    font-size: 70px;
+    position: relative;
+    top: 5px;
+    left: 700px;
+}
+.letter-2{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 530px;
+    top: 84px;
+}
+.lettertext-2{
+    color: white;
+    position: relative;
+    font-size: 23px;
+    left: 650px;
+    top: 105px;
+}
+.mainbox{
+    position: relative;
+    right: 70px;
+    top: 70px;
+}
+.letter-3{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 250px;
+   bottom: 20px;
+}
+.lettertext3{
+    color: white;
+    position: relative;
+    left: 430px;
+   bottom: 2px;
+    font-size: 23px;
+}
+.fa-graduation-cap{
+    display: inline-block;
+    font-size: 80px;
+   position: relative;
+   left: 420px;
+   bottom: 96px;
+}
+.mainbox-2{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    right: 80px;
+}
+.sheet2{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.barbottom{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(56, 141, 238);
+    position: relative;
+    top: 120px;
+}
+.barbottomtext{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+.notify{
+    width: 380px;
+    height: 50px;
+    position: relative;
+    left: 670px;
+}
+.blackbox{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+   left: 1070px;
+   bottom: 50px;
+   border-radius: 4px;
+}
+.whitetext{
+    color: white;
+    font-weight: bold;
+    font-size:16px;
+    position: relative;
+    left: 24px;
+    top: 14px;
+}
+.late{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 80px;
+}
+.lateblue{
+    color:  rgb(56, 141, 238);
+}
+.container{
+    display: grid;
+    grid-template-columns:340px 340px 340px;
+    grid-template-rows: 210px;
+     gap: 40px;
+     position: relative;
+     top: 100px;
+     left: 70px;
+}
+.card-1{
+    background-color: rgba(128, 128, 128, 0.224);
+    border-radius: 6px;
+}
+.card-2{
+    background-color: rgba(128, 128, 128, 0.21);
+    border-radius: 6px;
+}
+.card-3{
+    background-color: rgba(128, 128, 128, 0.21);
+    border-radius: 6px;
+}
+.fa-nfc-directional{
+    position: relative;
+    left: 280px;
+    font-size: 40px;
+    top: 15px;
+}
+.blueicon-1{
+    color:  rgb(56, 141, 238);
+    position: relative;
+    right: 100px;
+    top: 25px;
+    font-size: 18px;
+}
+.whiteicon-1{
+  color: white;
+  position: relative;
+  top: 40px;
+  font-weight: bold;
+ left: 27px;
+}
+.fa-basket-shopping{
+    font-size: 30px;
+    position: relative;
+    top: 70px;
+    left: 27px;
+}
+.get{
+    font-size: 20px;
+    color:  rgb(56, 141, 238);
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.fa-php{
+    position: relative;
+    left: 260px;
+    font-size: 50px;
+    top: 10px;
+}
+.blueicon-2{
+    color:  rgb(56, 141, 238);
+    position: relative;
+    right: 120px;
+    top: 25px;
+    font-size: 18px;
+}
+.whiteicon-2{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.fa-battle-net{
+    position: relative;
+    left: 270px;
+    font-size: 50px;
+    top: 10px;
+}
+.whiteicon-3{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+.head-3{
+    color:white;
+    position: relative;
+    top: 160px;
+    left: 380px;
+    font-size:40px ;
+    font-weight: bold;
+}
+.sheet3{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+}
+.bluepop{
+    color:  rgb(56, 141, 238);
+}
+.container-2{
+    display: grid;
+    grid-template-columns:340px 340px 340px;
+    grid-template-rows: 210px 210px 210px ;
+     gap: 40px;
+     position: relative;
+     top: 185px;
+     left: 76px;
+}
+.cardd{
+    background-color: rgba(128, 128, 128, 0.224);
+    border-radius: 6px;
+}
+.fa-html5{
+    font-size: 45px;
+    position: relative;
+    left: 280px;
+    top: 15px;
+}
+.paraghraph-1{
+    color:  rgb(56, 141, 238);
+    font-size: 18px;
+    position: relative;
+    right: 100px;
+    top: 20px;
+}
+.card-1-text{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.fa-star-of-life{
+    font-size: 45px;
+    position: relative;
+    left: 280px;
+    top: 15px;
+}
+.paraghraph-2{
+    color:  rgb(56, 141, 238);
+    position: relative;
+   left: 23px;
+   top: 1px;
+    font-size: 18px;
+}
+.card-2-text{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 24px;
+}
+.fa-js{
+    font-size: 45px;
+    position: relative;
+    left: 280px;
+    top: 15px;
+}
+.card-3-text{
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 28px;
+}
+.fa-css3-alt{
+    font-size: 45px;
+    position: relative;
+    left: 280px;
+    top: 15px;
+}
+.paraghraph-3{
+    color:  rgb(56, 141, 238);
+    position: relative;
+   right: 100px;
+   top: 18px;
+    font-size: 18px;
+}
+.card-3-text{
+    position: relative;
+}
+.fa-node-js{
+    font-size: 45px;
+    position: relative;
+    left: 280px;
+    top: 15px;
+}
+.paraghraph-4{
+    color:  rgb(56, 141, 238);
+    position: relative;
+   right: 100px;
+   top: 18px;
+    font-size: 18px;
+}
+.card-4-text{
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 28px;
+}
+.fa-file-code{
+    font-size: 45px;
+    position: relative;
+    left: 280px;
+    top: 15px;
+}
+.card-5-text{
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 28px;
+}
+.blue{
+    width: 87%;
+    height: 50px;
+    background-color: rgb(56, 141, 238);
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+    border-radius: 6px;
+}
+.blue-text{
+    color: white;
+    position: relative;
+    left: 400px;
+    top: 13px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sheet4{
+    height: 180vh;
+    background-color: rgb(56, 141, 238);
+}
+.head{
+    color: white;
+    position: relative;
+    right: 110px;
+    font-size: 35px;
+    top: 60px;
+}
+.head-bottom{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    top: 90px;
+    left: 200px;
+}
+.container-3{
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    gap: 40px;
+    position: relative;
+    top: 140px;
+    left: 70px;
+}
+.box-1{
+    position: relative;
+    top: 70px;
+    height: 550px;
+    background-color: rgba(10, 41, 53, 0.826);
+    border-radius: 4px;
+}
+.box-2{ 
+    position: relative;
+    top: 30px;
+    height: 650px;
+    background-color:white;
+    border-radius: 4px;
+}
+.box-3{
+    height: 680px;
+    background-color: rgb(6, 35, 40);
+    border-radius: 4px;
+}
+.head-top-1{
+    color:  rgb(56, 141, 238);
+    position: relative;
+    left: 80px;
+    top: 30px;
+    font-size: 30px;
+}
+.top-1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    right: 10px;
+}
+.top-head{
+    color:  rgb(56, 141, 238);
+    font-size: 21px;
+    position: relative;
+    top: 46px;
+    left: 60px;
+}
+.ul-1{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    font-size: 21px;
+  line-height: 35px;
+  list-style-type: initial;
+ color: white;
+}
+.listbottom{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(29, 114, 211);
+    position: relative;
+    top: 100px;
+    left: 80px;
+    border-radius: 5px;
+}
+.buy{
+color: white;
+position: relative;
+top: 15px;
+left: 28px;
+font-weight: bold;
+font-size: 20px;
+}
+.head-top-2{
+    color:  rgb(56, 141, 238);
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-size: 30px;
+}
+.top-2{
+    color:  rgb(6, 35, 40);
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    right: 10px;
+}
+.become{
+position: relative;
+top: 45px;
+left: 60px;
+font-weight: bold;
+font-size: 20px;
+}
+.list-2{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    font-size: 21px;
+  line-height: 35px;
+  list-style-type: initial;
+ color: rgb(30, 30, 30);
+}
+.head-top-3{
+    color:  rgb(56, 141, 238);
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-size: 30px;
+}
+.top-3{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    right: 10px;
+}
+.become-pro{
+position: relative;
+top: 48px;
+left: 60px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+}
+.sheet5{
+    height: 500px;
+    background-color: rgba(16, 45, 78, 0.854);
+}
+.image{
+    width: 420px;
+    height: 400px;
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+.header-1{
+    color: white;
+    position: relative;
+    left: 650px;
+    font-size: 30px;
+    bottom: 290px;
+    font-weight: bold;
+}
+.header-2{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    left: 650px;
+    bottom: 280px;
+}
+.header-4{
+    width: 400px;
+    color: white;
+    position: relative;
+    left: 650px;
+    bottom: 270px;
+    font-size: 20px;
+}
+.header-5{
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 250px;
+    left: 650px;
+}
+.header-6{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    left: 650px;
+    bottom: 220px;
+    border-radius: 5px;
+}
+.header-7{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    right: 7px;
+    top: 11px;
+}
+.sheet6{
+    background-color: white;
+    height: 460px;
+}
+.sheet6-card{
+    width: 500px;
+    height: 290px;
+    background-color: white;
+    position: relative;
+    left: 40px;
+    top: 90px;
+    border-radius: 4px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.head-bar{
+    font-size: 27px;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.head-bar-2{
+ font-size: 24px;
+ font-weight: bold;
+ position: relative;
+ top: 40px;
+ left: 30px;
+}
+.head-bar-3{
+    position: relative;
+    top: 55px;
+    font-size: 18px;
+}
+.find{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(56, 141, 238);
+    position: relative;
+    top: 80px;
+    left: 28px;
+    border-radius: 4px;
+}
+a{
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+.whitephoto{
+    width: 430px;
+    height: 380px;
+    position: relative;
+    left: 650px;
+    bottom: 220px;
+}
+.sheet7{
+    background-color: black;
+    height: 500px;
+}
+.bradphoto{
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+.photo-1{
+    color: white;
+     font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    right: 100px;
+}
+.photo-1-blue{
+    position: relative;
+    bottom: 68px;
+    left: 50px;
+}
+.box-paraghraph{
+    width: 500px;
+    height: 290px;
+    background-color: black;
+    position: relative;
+    left: 640px;
+    bottom: 320px;
+    border-radius: 4px;
+    box-shadow: rgba(236, 232, 232, 0.16) 0px 1px 4px;
+}
+.box-paraghraph-1{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+}
+.box-paraghraph-3{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top:80px;
+}
+.sheet8{
+    height: 500px;
+    background-color: rgb(56, 141, 238);
+}
+.section-1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 650px;
+    top: 170px;
+}
+.section-2{
+    width: 490px;
+    color: white;
+    font-size: 22px;
+    position: relative;
+    left: 660px;
+    top: 190px;
+}
+.section-3{
+    background-color: black;
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+    position: relative;
+    left: 760px;
+    top: 230px;
+}
+.section-4{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 16px;
+    top: 10px;
+}
+.media{
+    position: relative;
+    bottom: 130px;
+}
+.sheet9{
+    background-color: black;
+    height: 600px;
+}
+.header-end{
+    color: white;
+    font-size: 45px;
+    position: relative;
+    right: 120px;
+}
+.header-end-2{
+    color: white;
+    font-size: 23px;
+    position: relative;
+    left: 350px;
+    top: 20px;
+}
+.youtube{
+    color:rgb(56, 141, 238) ;
+    position: relative;
+    bottom: 220px;
+}
+.img{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px ;
+    grid-template-rows: 200px 200px;
+    gap: 40px;
+    position: relative;
+    left: 70px;
+    top: 80px;
+}
+.web{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    bottom: 10px;
+    right:8px ;
+}
+.react{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    right: 9px;
+    bottom: 10px;
+}
+.source{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+.sheet10{
+    position: relative;
+    top: 40px;
+    background-color: rgba(6, 26, 48, 0.715);
+    height: 100px;
+}
+.fa-linkedin-in{
+    font-size: 28px;
+    position: relative;
+   left: 1150px;
+   top: 30px;
+}
+.fa-github{
+    font-size: 28px;
+    position: relative;
+    left: 1070px;
+    top: 30px;
+}
+.fa-youtube{
+    font-size: 28px;
+    position: relative;
+    left: 980px;
+    top: 30px;
+}
+.fa-instagram{
+    font-size: 28px;
+    position: relative;
+    left: 895px;
+    top: 30px;
+}
+.fa-twitter{
+    font-size: 28px;
+    position: relative;
+    top: 30px;
+    left: 810px;
+}
+.status-bar{
+    position: relative;
+    color: white;
+    font-size: 23px;
+    left: 400px;
+}
+.icon-end{
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+}
+
+
+ 
